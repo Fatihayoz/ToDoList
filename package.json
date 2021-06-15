@@ -11,7 +11,7 @@
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
     "lint:js:ci": "npm run lint:js -- ./src",
     "format": "prettier",
-    "dev": "lite-server",
+    "dev": "lite-server"
   },
   "type": "module",
   "repository": {
