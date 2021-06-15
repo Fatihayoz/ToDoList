@@ -1,0 +1,8 @@
+{
+  "--defaults": {
+    ".js": "highlight"
+  },
+  "study": {
+    "type": "module"
+  }
+}
