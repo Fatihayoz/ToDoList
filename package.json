@@ -4,8 +4,8 @@
   "scripts": {
     "tree": "depcruise --prefix ../ --include-only \"^src\" --exclude sandbox.js --output-type dot src | graphviz -Tsvg -odocs/dependency-graph.svg",
     "document": "node ./dev-scripts/document.js && npm run tree",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest",
-    "test:ci": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests ",
+    "test:ci": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests",
     "lint:css": "stylelint",
     "lint:css:ci": "stylelint 'public/**/*.css'",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
