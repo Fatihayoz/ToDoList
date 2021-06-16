@@ -1,7 +1,7 @@
 const addTodo = () => {
   // create div for each todoList
 
-  const todoList = document.querySelector(".todo-list");
+  var todoList = document.querySelector(".todo-list");
   const newTodo = document.createElement("div");
   newTodo.classList.add("todo");
   todoList.appendChild(newTodo);
