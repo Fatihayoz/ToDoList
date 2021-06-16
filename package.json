@@ -40,8 +40,5 @@
     "prettier": "^2.2.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
-  },
-  "dependencies": {
-    "eslint-config-airbnb": "^18.2.1"
   }
 }
