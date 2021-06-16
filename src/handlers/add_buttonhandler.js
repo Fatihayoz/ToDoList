@@ -1,9 +1,7 @@
-import {addTodo} from "../procedures/addTodo.js";
+import { addTodo } from "../procedures/addTodo.js";
 
 const addButtonHandler = (e) => {
-    
-    e.preventDefault();   
-    addTodo();
-    
-}
-export {addButtonHandler};
+  e.preventDefault();
+  addTodo();
+};
+export { addButtonHandler };
