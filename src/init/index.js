@@ -1,4 +1,1 @@
-import '../listeners/listener.js'
-
-
-// console.log(document); 
+import "../listeners/listener.js";
