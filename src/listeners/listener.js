@@ -1,4 +1,5 @@
 import { addButtonHandler } from "../handlers/add_buttonhandler.js";
+import{ deleteTodoHandler} from "../handlers/deleteTodoHandler.js";
 
 // listener for add button
 const addButton = document.querySelector(".todo-button");
