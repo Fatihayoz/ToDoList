@@ -21,25 +21,8 @@ const addTodo = (event) => {
  // liTodo.appendChild(newTodo);
 
 
-  //event.preventDefault();
-  // todo div
-  //const todoDiv = document.createElement("div");
-  //todoDiv.classList.add("todo");
-  // create <li></li>
-  //const newTodo = document.createElement("li");
-  //newTodo.innerText = todoInput.value;
-  //newTodo.classList.add("todo-item");
- // todoDiv.appendChild(newTodo);
-
-  //trash button
-  //const trashButton = document.createElement("button");
-  //trashButton.innerHTML = "<i class='fas fa-trash'></i>";
-  //trashButton.classList.add("trash-btn");
-  //todoDiv.appendChild(trashButton);
   // append to list
   //todoList.appendChild(todoDiv);
-  // clear todo input value
-  //todoInput.value = "";
 
 
 };
