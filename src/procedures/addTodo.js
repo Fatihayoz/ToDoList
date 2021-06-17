@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
+// eslint-disable-next-line no-unused-vars
 const addTodo = (event) => {
-  
   const todoList = document.querySelector(".todo-list");
   const newTodo = document.createElement("div");
   newTodo.classList.add("todo");
@@ -12,19 +13,12 @@ const addTodo = (event) => {
   liTodo.innerText = todoInput.value;
   todoInput.value = "";
   newTodo.appendChild(liTodo);
-// trash button
+  // trash button
   const trashButton = document.createElement("button");
   trashButton.innerHTML = "<i class='fas fa-trash'></i>";
   trashButton.classList.add("trash-btn");
   // append to div
   newTodo.appendChild(trashButton);
- // liTodo.appendChild(newTodo);
-
-
-  // append to list
-  //todoList.appendChild(todoDiv);
-
-
 };
 
 export { addTodo };
