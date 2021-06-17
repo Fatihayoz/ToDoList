@@ -7,4 +7,4 @@ addButton.addEventListener("click", addButtonHandler);
 
 // event listener for delete button
 
-document.getElementsByClassName("todo-list").addEventListener('click', deleteTodoHandler);
+document.getElementById("list").addEventListener('click', deleteTodoHandler);
