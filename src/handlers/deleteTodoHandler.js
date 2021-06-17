@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-destructuring */
 // import { addTodo } from "../procedures/addTodo.js";
 const deleteTodoHandler = (event) => {
   const target = event.target;
