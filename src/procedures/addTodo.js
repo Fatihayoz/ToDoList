@@ -17,9 +17,8 @@ const addTodo = (event) => {
   trashButton.innerHTML = "<i class='fas fa-trash'></i>";
   trashButton.classList.add("trash-btn");
   // append to div
-  newTodo.appendChild(newTodo);
-
-
+  newTodo.appendChild(trashButton);
+  liTodo.appendChild(newTodo);
 
 
   //event.preventDefault();
