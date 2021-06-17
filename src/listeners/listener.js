@@ -7,4 +7,6 @@ addButton.addEventListener("click", addButtonHandler);
 
 // event listener for delete button
 //const deleteButton=
- document.getElementsByClassName("trash-btn").addEventListener('click',deleteTodoHandler);
+ const delbutton=document.getElementsByClassName("trash-btn");
+ //addEventListener('click',deleteTodoHandler);
+ delbutton[0].addEventListener('click' , deleteTodoHandler) ; 
