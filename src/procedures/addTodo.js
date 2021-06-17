@@ -18,7 +18,7 @@ const addTodo = (event) => {
   trashButton.classList.add("trash-btn");
   // append to div
   newTodo.appendChild(trashButton);
-  liTodo.appendChild(newTodo);
+ // liTodo.appendChild(newTodo);
 
 
   //event.preventDefault();
