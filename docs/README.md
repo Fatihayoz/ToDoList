@@ -15,6 +15,7 @@
 - handlers
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
+  - [resetButtonHandler.js](#srchandlersresetButtonHandlerjs)
 - init
   - [index.js](#srcinitindexjs)
 - listeners
@@ -37,6 +38,10 @@
 </details>
 
 <details><summary><a href="../src/handlers/deleteTodoHandler.js" id="srchandlersdeleteTodoHandlerjs">src/handlers/deleteTodoHandler.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/handlers/resetButtonHandler.js" id="srchandlersresetButtonHandlerjs">src/handlers/resetButtonHandler.js</a></summary>
 
 </details>
 
