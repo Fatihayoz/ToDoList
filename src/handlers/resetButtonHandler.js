@@ -1,5 +1,5 @@
 const resetButtonHandler = () => {
-  document.querySelector(".todo-list").reset();
+  window.location.reload();
 };
 
 export { resetButtonHandler };
