@@ -14,7 +14,6 @@
 
 - handlers
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
-  - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
 - init
   - [index.js](#srcinitindexjs)
 - listeners
@@ -33,10 +32,6 @@
 # /handlers
 
 <details><summary><a href="../src/handlers/add_buttonhandler.js" id="srchandlersadd_buttonhandlerjs">src/handlers/add_buttonhandler.js</a></summary>
-
-</details>
-
-<details><summary><a href="../src/handlers/deleteTodoHandler.js" id="srchandlersdeleteTodoHandlerjs">src/handlers/deleteTodoHandler.js</a></summary>
 
 </details>
 
