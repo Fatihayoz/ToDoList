@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line no-unused-vars
-const addTodo = (event) => {
+
   // create div for each todoList
 
   const todoList = document.querySelector(".todo-list");
@@ -16,12 +14,6 @@ const addTodo = (event) => {
   todoInput.value = "";
   newTodo.appendChild(liTodo);
 
-  // trash button
-  const trashButton = document.createElement("button");
-  trashButton.innerHTML = "<i class='fas fa-trash'></i>";
-  trashButton.classList.add("trash-btn");
-  // append to div
-  newTodo.appendChild(trashButton);
 };
 
 export { addTodo };
