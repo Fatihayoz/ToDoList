@@ -5,6 +5,7 @@ const addButton = document.querySelector('.todo-button');
 const todo = document.querySelector('.todo-list');
 
     let todoList = [];
+    
     export const reFill = () => {
     if(localStorage.getItem('todo')){
         todoList = JSON.parse(localStorage.getItem('todo'));
@@ -24,7 +25,7 @@ const todo = document.querySelector('.todo-list');
         
     }
 
-    addButton.addEventListener('click', toStorage)
+    // addButton.addEventListener('click', toStorage)
     
         // function displayMessages () {
         // let displayMessage = '';
