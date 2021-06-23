@@ -12,6 +12,8 @@
 
 <!-- BEGIN TOC -->
 
+- components
+  - [trash-button.js](#srccomponentstrash-buttonjs)
 - handlers
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
@@ -23,11 +25,22 @@
 - logic
 - procedures
   - [addTodo.js](#srcproceduresaddTodojs)
-- [data.js](#srcdatajs)
 
 <!-- END TOC -->
 
 <!-- BEGIN DOCS -->
+
+---
+
+# /components
+
+<details><summary><a href="../src/components/trash-button.js" id="srccomponentstrash-buttonjs">src/components/trash-button.js</a></summary>
+
+</details>
+
+---
+
+[TOP](#DOCS)
 
 ---
 
@@ -92,9 +105,5 @@
 ---
 
 [TOP](#DOCS)
-
-<details><summary><a href="../src/data.js" id="srcdatajs">src/data.js</a></summary>
-
-</details>
 
 <!-- END DOCS -->
