@@ -1,0 +1,23 @@
+// const state = { items: [{ text: "", done: false }] };
+
+const schema = {
+  title: "list item",
+  type: "object",
+  properties: {
+    item: {
+      type: "string",
+      description: "something user plans to do",
+    },
+    done: {
+      type: "boolean",
+      description: "shows if action is done or not",
+    },
+  },
+  required: ["item"],
+};
+
+const state = {
+  items: [],
+  done: false,
+};
+export { state };
