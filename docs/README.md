@@ -13,8 +13,7 @@
 <!-- BEGIN TOC -->
 
 - components
-  - [add-button.js](#srccomponentsadd-buttonjs)
-  - [check-button.js](#srccomponentscheck-buttonjs)
+
 - handlers
   - [addButtonHandler.js](#srchandlersaddButtonHandlerjs)
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
@@ -37,13 +36,6 @@
 
 # /components
 
-<details><summary><a href="../src/components/add-button.js" id="srccomponentsadd-buttonjs">src/components/add-button.js</a></summary>
-
-</details>
-
-<details><summary><a href="../src/components/check-button.js" id="srccomponentscheck-buttonjs">src/components/check-button.js</a></summary>
-
-</details>
 
 ---
 
