@@ -12,6 +12,7 @@
 
 <!-- BEGIN TOC -->
 
+- components
 - handlers
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
@@ -28,6 +29,14 @@
 <!-- END TOC -->
 
 <!-- BEGIN DOCS -->
+
+---
+
+# /components
+
+---
+
+[TOP](#DOCS)
 
 ---
 
