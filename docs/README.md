@@ -14,9 +14,11 @@
 
 - components
   - [add-button.js](#srccomponentsadd-buttonjs)
+  - [check-button.js](#srccomponentscheck-buttonjs)
 - handlers
   - [addButtonHandler.js](#srchandlersaddButtonHandlerjs)
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
+  - [checkButtonHandler.js](#srchandlerscheckButtonHandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
   - [resetButtonHandler.js](#srchandlersresetButtonHandlerjs)
 - init
@@ -39,6 +41,10 @@
 
 </details>
 
+<details><summary><a href="../src/components/check-button.js" id="srccomponentscheck-buttonjs">src/components/check-button.js</a></summary>
+
+</details>
+
 ---
 
 [TOP](#DOCS)
@@ -52,6 +58,10 @@
 </details>
 
 <details><summary><a href="../src/handlers/add_buttonhandler.js" id="srchandlersadd_buttonhandlerjs">src/handlers/add_buttonhandler.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/handlers/checkButtonHandler.js" id="srchandlerscheckButtonHandlerjs">src/handlers/checkButtonHandler.js</a></summary>
 
 </details>
 
