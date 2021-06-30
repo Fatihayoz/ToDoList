@@ -13,8 +13,11 @@
 <!-- BEGIN TOC -->
 
 - components
+
 - handlers
+  - [addButtonHandler.js](#srchandlersaddButtonHandlerjs)
   - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
+  - [checkButtonHandler.js](#srchandlerscheckButtonHandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
   - [resetButtonHandler.js](#srchandlersresetButtonHandlerjs)
 - init
@@ -24,7 +27,6 @@
 - logic
 - procedures
   - [addTodo.js](#srcproceduresaddTodojs)
-- [data.js](#srcdatajs)
 
 <!-- END TOC -->
 
@@ -34,6 +36,7 @@
 
 # /components
 
+
 ---
 
 [TOP](#DOCS)
@@ -42,7 +45,15 @@
 
 # /handlers
 
+<details><summary><a href="../src/handlers/addButtonHandler.js" id="srchandlersaddButtonHandlerjs">src/handlers/addButtonHandler.js</a></summary>
+
+</details>
+
 <details><summary><a href="../src/handlers/add_buttonhandler.js" id="srchandlersadd_buttonhandlerjs">src/handlers/add_buttonhandler.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/handlers/checkButtonHandler.js" id="srchandlerscheckButtonHandlerjs">src/handlers/checkButtonHandler.js</a></summary>
 
 </details>
 
@@ -101,9 +112,5 @@
 ---
 
 [TOP](#DOCS)
-
-<details><summary><a href="../src/data.js" id="srcdatajs">src/data.js</a></summary>
-
-</details>
 
 <!-- END DOCS -->
