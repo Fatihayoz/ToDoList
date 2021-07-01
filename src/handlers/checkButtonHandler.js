@@ -1,9 +1,8 @@
-
-import { state } from "../data.js"
+// import { state } from "../data.js"
 
 const checkButtonHandler = (event) => {
     
-    const checked = event.taget;
+    const checked = event.target;
     // we select id index from data  
     const isDone = checked.parentElement.dataset.index;
 
@@ -14,11 +13,10 @@ const checkButtonHandler = (event) => {
 
     // render result of data
 
-    if (checked.classList[0] === "chech.btn") {
+    if (checked.classList[0] === "check-btn") {
         const checkItem = checked.parentElement;
         checkItem.classList.toggle('completed');
-    }
-    
-}
+    }    
+};
 
 export { checkButtonHandler }; 
