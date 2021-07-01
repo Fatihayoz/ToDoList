@@ -20,15 +20,13 @@
     <title>To Do List</title>
   </head>
   <body>
-
     <header>
         <h1>Todo List</h1>
     </header>
     <form>
+        <div class='add-item'>
         <input type="text" class="todo-input">
-        <button class="todo-button" type="submit">
-            <i class="fas fa-plus-square"></i>
-        </button>
+        </div>
         <div class="select">
           <select name="todos" class="filter-todo">
             <option value="all">All</option>
@@ -41,7 +39,6 @@
         </div>
     </form>
     <div class="todo-container">
-        <ul class="todo-list" id="list"></ul>
     </div>
     <script type="module" src="./src/init/index.js"></script>
   </body>

@@ -1,5 +1,3 @@
-// const state = { items: [{ text: "", done: false }] };
-
 const schema = {
     title: "list item",
     type: "object",
@@ -16,7 +14,7 @@ const schema = {
     required: ["item"],
   };
   
-  export const state = {
+  const state = {
     items: [
     // {
     // text: 'test',
