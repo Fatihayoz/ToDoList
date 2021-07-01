@@ -1,5 +1,5 @@
 import { state } from "../data.js";
-// import { renderList } from "../components/render-list.js";
+import { renderList } from "../components/render-list.js";
 
 const addButtonHandler = (e) => {
   e.preventDefault();
@@ -9,8 +9,8 @@ const addButtonHandler = (e) => {
   console.log(state.items);
   const listParent = document.querySelector(".todo-container");
   todoInput.value = "";
-  // listParent.innerHTML = todoInput.value;
-  // listParent.appendChild(renderList(state.items));
+  listParent.innerHTML = todoInput.value;
+  listParent.appendChild(renderList(state.items));
 };
 export { addButtonHandler };
 
