@@ -1,5 +1,5 @@
-// import { makeTrashButton } from "./trash-button.js";
-// import { makeCheckButton } from "./check-button.js";
+import { makeTrashButton } from "./trash-button.js";
+import { makeCheckButton } from "./check-button.js";
 
 const renderList = (data) => {
   // const array = Array.from(data);
@@ -11,8 +11,8 @@ const renderList = (data) => {
     div.innerHTML = item.text;
     ul.appendChild(li);
     li.appendChild(div);
-    // li.appendChild(makeTrashButton());
-    // li.appendChild(makeCheckButton());
+    li.appendChild(makeTrashButton());
+    li.appendChild(makeCheckButton());
   }
   return ul;
 };
