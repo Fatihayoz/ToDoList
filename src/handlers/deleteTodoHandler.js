@@ -12,7 +12,7 @@ const deleteTodoHandler = (event) => {
     state.items.splice(toDelete,1);
  
     console.log(state);
-    listParent.appendChild(renderList(state.items));
+    // listParent.appendChild(renderList(state.items));
     // renderList(state);
 
 };
