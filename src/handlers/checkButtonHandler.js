@@ -1,4 +1,4 @@
-// import { state } from "../data.js"
+import { state } from "../data.js"
 
 const checkButtonHandler = (event) => {
     
