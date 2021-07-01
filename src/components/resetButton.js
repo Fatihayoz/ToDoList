@@ -1,4 +1,4 @@
-import { resetButtonHandler } from "../handlers/resetButtonHandler";
+import { resetButtonHandler } from "../handlers/resetButtonHandler.js";
 
 const addResetButton = (classEl) => {
   const resetButton = document.createElement("button");
