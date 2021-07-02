@@ -13,20 +13,22 @@
 <!-- BEGIN TOC -->
 
 - components
-
+  - [add-button.js](#srccomponentsadd-buttonjs)
+  - [check-button.js](#srccomponentscheck-buttonjs)
+  - [render-list.js](#srccomponentsrender-listjs)
+  - [resetButton.js](#srccomponentsresetButtonjs)
+  - [trash-button.js](#srccomponentstrash-buttonjs)
 - handlers
   - [addButtonHandler.js](#srchandlersaddButtonHandlerjs)
-  - [add_buttonhandler.js](#srchandlersadd_buttonhandlerjs)
   - [checkButtonHandler.js](#srchandlerscheckButtonHandlerjs)
   - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
   - [resetButtonHandler.js](#srchandlersresetButtonHandlerjs)
 - init
   - [index.js](#srcinitindexjs)
+  - [ui.js](#srcinituijs)
 - listeners
   - [listener.js](#srclistenerslistenerjs)
-- logic
-- procedures
-  - [addTodo.js](#srcproceduresaddTodojs)
+- [data.js](#srcdatajs)
 
 <!-- END TOC -->
 
@@ -36,6 +38,25 @@
 
 # /components
 
+<details><summary><a href="../src/components/add-button.js" id="srccomponentsadd-buttonjs">src/components/add-button.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/components/check-button.js" id="srccomponentscheck-buttonjs">src/components/check-button.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/components/render-list.js" id="srccomponentsrender-listjs">src/components/render-list.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/components/resetButton.js" id="srccomponentsresetButtonjs">src/components/resetButton.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/components/trash-button.js" id="srccomponentstrash-buttonjs">src/components/trash-button.js</a></summary>
+
+</details>
 
 ---
 
@@ -46,10 +67,6 @@
 # /handlers
 
 <details><summary><a href="../src/handlers/addButtonHandler.js" id="srchandlersaddButtonHandlerjs">src/handlers/addButtonHandler.js</a></summary>
-
-</details>
-
-<details><summary><a href="../src/handlers/add_buttonhandler.js" id="srchandlersadd_buttonhandlerjs">src/handlers/add_buttonhandler.js</a></summary>
 
 </details>
 
@@ -77,6 +94,10 @@
 
 </details>
 
+<details><summary><a href="../src/init/ui.js" id="srcinituijs">src/init/ui.js</a></summary>
+
+</details>
+
 ---
 
 [TOP](#DOCS)
@@ -93,24 +114,8 @@
 
 [TOP](#DOCS)
 
----
-
-# /logic
-
----
-
-[TOP](#DOCS)
-
----
-
-# /procedures
-
-<details><summary><a href="../src/procedures/addTodo.js" id="srcproceduresaddTodojs">src/procedures/addTodo.js</a></summary>
+<details><summary><a href="../src/data.js" id="srcdatajs">src/data.js</a></summary>
 
 </details>
-
----
-
-[TOP](#DOCS)
 
 <!-- END DOCS -->
