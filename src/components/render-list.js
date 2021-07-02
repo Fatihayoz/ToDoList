@@ -7,8 +7,10 @@ const renderList = (data) => {
   listParent.textContent = ""; 
   
   const ul = document.createElement("ul");
+  ul.setAttribute("class", "item-list");
   for (const item of data) {
     const li = document.createElement("li");
+    li.setAttribute("class", "item"); 
     li.dataset.index = data.indexOf(item);
     const div = document.createElement("div");
     div.innerHTML = item.text;

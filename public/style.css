@@ -49,12 +49,12 @@ form button:hover {
   align-items: center;
 }
 
-.todo-list {
+.item-list {
   min-width: 30%;
   list-style: none;
 }
 
-.todo {
+.item {
   margin: 0.5rem;
   background: white;
   color: black;
@@ -65,12 +65,12 @@ form button:hover {
   transition: all 0.5s ease;
 }
 
-.todo li {
+.item div {
   flex: 1;
 }
 
 .trash-btn,
-.complete-btn {
+.check-btn {
   background: #ff6f47;
   color: white;
   border: none;
@@ -79,7 +79,7 @@ form button:hover {
   font-size: 1rem;
 }
 
-.complete-btn {
+.check-btn{
   background: rgb(73, 204, 73);
 }
 
