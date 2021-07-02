@@ -1,5 +1,6 @@
 import { state } from "../data.js";
 import { renderList } from "../components/render-list.js";
+
 const addButtonHandler = (e) => {
   
   e.preventDefault();
@@ -13,5 +14,5 @@ const addButtonHandler = (e) => {
   listParent.appendChild(renderList(state.items));
  
 };
-export { addButtonHandler };
 
+export { addButtonHandler };
