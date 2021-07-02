@@ -1,7 +1,7 @@
 import { state } from "../data.js";
 import { renderList } from "../components/render-list.js";
 const addButtonHandler = (e) => {
-  debugger;
+  
   e.preventDefault();
   const todoInput = document.querySelector(".todo-input");
   const newDataObject = { text: todoInput.value, done : false} 

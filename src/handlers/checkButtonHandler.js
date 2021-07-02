@@ -2,7 +2,7 @@ import { renderList } from "../components/render-list.js";
 import { state } from "../data.js";
 
 const checkButtonHandler = (event) => {
-debugger;
+
 // console.log("i work");
 const checked = event.target;
 const isDone = checked.parentElement.dataset.index;

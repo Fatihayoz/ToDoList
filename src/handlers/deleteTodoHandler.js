@@ -4,7 +4,7 @@ import { state } from "../data.js";
 
 /* eslint-disable prefer-destructuring */
 const deleteTodoHandler = (event) => {
-    debugger;
+
 const target = event.target;
 if (target.nodeName === "BUTTON") {
 
