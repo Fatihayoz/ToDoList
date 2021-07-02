@@ -9,7 +9,6 @@ const target = event.target;
 if (target.nodeName === "BUTTON") {
 
 const listParent = document.querySelector(".todo-container");//
-
 console.log(target.parentElement.dataset.index);
 const toDelete = target.parentElement.dataset.index;
 state.items.splice(toDelete,1);

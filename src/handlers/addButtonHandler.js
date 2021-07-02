@@ -4,7 +4,6 @@ const addButtonHandler = (e) => {
   debugger;
   e.preventDefault();
   const todoInput = document.querySelector(".todo-input");
- 
   const newDataObject = { text: todoInput.value, done : false} 
   state.items.push(newDataObject);
   console.log(state.items);
