@@ -18,7 +18,7 @@ const resetButtonHandler = (e) => {
 
   // document.querySelector(".todo-container").innerHTML = "";
   // document.querySelector(".todo-input").value = "";
-  console.log("resetButton works!");
+  console.log("resetButton works?");
 };
 
 export { resetButtonHandler };
