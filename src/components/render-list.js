@@ -3,6 +3,9 @@ import { makeCheckButton } from "./check-button.js";
 
 const renderList = (data) => {
   // const array = Array.from(data);
+  const listParent = document.querySelector(".todo-container");
+  listParent.textContent = ""; 
+  
   const ul = document.createElement("ul");
   for (const item of data) {
     const li = document.createElement("li");
@@ -13,6 +16,11 @@ const renderList = (data) => {
     li.appendChild(div);
     li.appendChild(makeTrashButton());
     li.appendChild(makeCheckButton());
+    if (item.done === true) {
+      li.classList.add('completed');
+    } else {
+      li.classList.remove('completed');
+    }
   }
   return ul;
 };
