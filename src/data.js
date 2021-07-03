@@ -3,8 +3,11 @@ const schema = {
     type: "object",
     properties: {
       item: {
-        type: "string",
+        type: "array",
         description: "something user plans to do",
+        text: {
+          type: "string",
+        },    
       },
       done: {
         type: "boolean",
