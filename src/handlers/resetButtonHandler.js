@@ -8,17 +8,13 @@ const resetButtonHandler = (e) => {
   }
 
   const resetContainer = document.querySelector(".todo-container");
-//   const resetInput = document.querySelector(".todo-input");
-//   console.log("state elements after reset: ", state.items);
+// const resetInput = document.querySelector(".todo-input");
+// console.log("state elements after reset: ", state.items);
   resetContainer.appendChild(renderList(state.items));
-//   resetInput.appendChild(renderList(state.items));
-//   console.log("ul after reset", renderList(state.items));
-//   console.log("resets container: ", resetContainer);
-//   console.log("resets input field: ", resetInput);
-
-  // document.querySelector(".todo-container").innerHTML = "";
-  // document.querySelector(".todo-input").value = "";
-//   console.log("resetButton works?");
+// resetInput.appendChild(renderList(state.items));
+// console.log("ul after reset", renderList(state.items));
+// console.log("resets container: ", resetContainer);
+// console.log("resets input field: ", resetInput);
 };
 
 export { resetButtonHandler };
