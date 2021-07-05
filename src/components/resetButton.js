@@ -1,7 +1,8 @@
 import { resetButtonHandler } from "../handlers/resetButtonHandler.js";
 
-const addResetButton = (classEl) => {
+const makeResetButton = (classEl) => {
   const resetButton = document.createElement("button");
+  resetButton.value = "reset";
   resetButton.innerHTML = "Reset";
   resetButton.className = "reset-btn";
   resetButton.classList.add(classEl);
@@ -9,4 +10,4 @@ const addResetButton = (classEl) => {
   return resetButton;
 };
 
-export { addResetButton };
+export { makeResetButton };

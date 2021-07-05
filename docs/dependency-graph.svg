@@ -230,8 +230,14 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M222.97,-172.34C226.04,-197.22 237.89,-265.59 278.02,-301 279.52,-302.32 281.11,-303.53 282.78,-304.65"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="281.75,-306.48 287.99,-307.7 283.88,-302.85 281.75,-306.48"/>
 </g>
-<!-- src/handlers/resetButtonHandler.js&#45;&gt;src/data.js -->
+<!-- src/handlers/resetButtonHandler.js&#45;&gt;src/components/render&#45;list.js -->
 <g id="edge16" class="edge">
+<title>src/handlers/resetButtonHandler.js&#45;&gt;src/components/render&#45;list.js</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M287.76,-309.21C284.07,-307.04 280.74,-304.35 278.02,-301 256.58,-274.55 290.65,-175.09 270.02,-148 267.24,-144.35 263.6,-141.52 259.55,-139.33"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="260.17,-137.3 253.84,-136.73 258.43,-141.13 260.17,-137.3"/>
+</g>
+<!-- src/handlers/resetButtonHandler.js&#45;&gt;src/data.js -->
+<g id="edge17" class="edge">
 <title>src/handlers/resetButtonHandler.js&#45;&gt;src/data.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M384.88,-307.61C390.14,-305.77 395.31,-303.58 400.04,-301 408.09,-296.61 415.75,-289.92 421.76,-283.89"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="423.38,-285.23 426.01,-279.44 420.35,-282.33 423.38,-285.23"/>
@@ -284,7 +290,7 @@
 </g>
 </g>
 <!-- src/init/index.js&#45;&gt;src/listeners/listener.js -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>src/init/index.js&#45;&gt;src/listeners/listener.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M58.91,-107.33C65.37,-115.67 75.55,-127.94 86,-137 89.74,-140.24 93.98,-143.36 98.18,-146.18"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="97.25,-148.08 103.43,-149.58 99.54,-144.55 97.25,-148.08"/>
@@ -299,19 +305,19 @@
 </g>
 </g>
 <!-- src/init/index.js&#45;&gt;src/init/ui.js -->
-<g id="edge18" class="edge">
+<g id="edge19" class="edge">
 <title>src/init/index.js&#45;&gt;src/init/ui.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M78.1,-98C81.12,-98 84.23,-98 87.33,-98"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="87.64,-100.1 93.64,-98 87.64,-95.9 87.64,-100.1"/>
 </g>
 <!-- src/init/ui.js&#45;&gt;src/components/add&#45;button.js -->
-<g id="edge19" class="edge">
+<g id="edge20" class="edge">
 <title>src/init/ui.js&#45;&gt;src/components/add&#45;button.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M124.1,-88.6C128.36,-72.04 139.74,-38.12 164,-24 209.83,2.69 274.26,-14.09 310.49,-27.4"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="310.13,-29.51 316.49,-29.66 311.62,-25.58 310.13,-29.51"/>
 </g>
 <!-- src/init/ui.js&#45;&gt;src/components/resetButton.js -->
-<g id="edge20" class="edge">
+<g id="edge21" class="edge">
 <title>src/init/ui.js&#45;&gt;src/components/resetButton.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M129.78,-107.67C140.72,-121.16 159.76,-144.28 164,-147 168.75,-150.05 174.09,-152.53 179.54,-154.54"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="179.12,-156.61 185.47,-156.55 180.46,-152.63 179.12,-156.61"/>
