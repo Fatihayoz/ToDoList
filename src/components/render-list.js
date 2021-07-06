@@ -1,11 +1,9 @@
-import { makeTrashButton } from "./trash-button.js";
-import { makeCheckButton } from "./check-button.js";
+import { TrashButton } from "./trash-button.js";
+import { CheckButton } from "./check-button.js";
 
-const renderList = (data) => {
-  // const array = Array.from(data);
+const RenderList = (data) => {
   const listParent = document.querySelector(".todo-container");
   listParent.textContent = ""; 
-  
   const ul = document.createElement("ul");
   ul.setAttribute("class", "item-list");
   for (const item of data) {
@@ -16,8 +14,8 @@ const renderList = (data) => {
     div.innerHTML = item.text;
     ul.appendChild(li);
     li.appendChild(div);
-    li.appendChild(makeTrashButton());
-    li.appendChild(makeCheckButton());
+    li.appendChild(TrashButton());
+    li.appendChild(CheckButton());
     if (item.done === true) {
       li.classList.add('completed');
     } else {
@@ -27,6 +25,4 @@ const renderList = (data) => {
   return ul;
 };
 
-// console.log(state);
-// console.log(state.items);
-export { renderList };
+export { RenderList };

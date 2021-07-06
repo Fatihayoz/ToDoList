@@ -1,7 +1,7 @@
-import { makeCheckButton } from "./check-button.js"
+import { CheckButton } from "./check-button.js"
 describe("creates a check-button with check favicon", () => {
   describe("creates check button", () => {
-    const actual = makeCheckButton();
+    const actual = CheckButton();
     it("is as button", () => {
       expect(actual.nodeName).toEqual("BUTTON");
     });

@@ -1,6 +1,6 @@
 import { checkButtonHandler } from "../handlers/checkButtonHandler.js"
 
-const makeCheckButton = () => {
+const CheckButton = () => {
     const checkButton = document.createElement("button");
     checkButton.innerHTML = "<i class='fas fa-check'></i>";
     checkButton.classList.add("check-btn")
@@ -8,4 +8,4 @@ const makeCheckButton = () => {
     return checkButton; 
 }
 
-export { makeCheckButton };
+export { CheckButton };

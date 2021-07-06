@@ -1,6 +1,6 @@
 import { addButtonHandler } from "../handlers/addButtonHandler.js";
 
-const makeAddButton = (classEl) => {
+const AddButton = (classEl) => {
   const addButton = document.createElement("button");
   addButton.className = "todo-button";
   addButton.classList.add(classEl);
@@ -8,4 +8,4 @@ const makeAddButton = (classEl) => {
   addButton.addEventListener("click", addButtonHandler);
   return addButton;
 };
-export { makeAddButton };
+export { AddButton };

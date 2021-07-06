@@ -1,10 +1,10 @@
-import { makeAddButton } from "../components/add-button.js";
-import { makeResetButton } from "../components/resetButton.js";
+import { AddButton } from "../components/add-button.js";
+import { ResetButton } from "../components/resetButton.js";
 
 // create addButton
 const parent = document.querySelector(".add-item");
-parent.insertAdjacentElement("beforeend", makeAddButton("todo-button"));
+parent.insertAdjacentElement("beforeend", AddButton("todo-button"));
 
 // create addResetButton
 const resetBtn = document.querySelector(".add-item");
-resetBtn.insertAdjacentElement("afterend", makeResetButton("reset-btn"));
+resetBtn.insertAdjacentElement("afterend", ResetButton("reset-btn"));

@@ -1,9 +1,8 @@
-
-import { makeTrashButton } from "./trash-button.js";
+import { TrashButton } from "./trash-button.js";
 
 describe("creates a trash-button with trash favicon", () => {
   describe("creates trash button", () => {
-    const actual = makeTrashButton();
+    const actual = TrashButton();
 
     it("is as button", () => {
       expect(actual.nodeName).toEqual("BUTTON");
