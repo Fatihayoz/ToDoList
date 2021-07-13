@@ -1,4 +1,4 @@
-import { addButtonHandler } from "../handlers/addButtonHandler.js";
+import { addButtonHandler } from "../handlers/add-button.js";
 
 const AddButton = (classEl) => {
   const addButton = document.createElement("button");

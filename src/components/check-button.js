@@ -1,4 +1,4 @@
-import { checkButtonHandler } from "../handlers/checkButtonHandler.js"
+import { checkButtonHandler } from "../handlers/check-button.js";
 
 const CheckButton = () => {
     const checkButton = document.createElement("button");

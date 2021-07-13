@@ -1,4 +1,4 @@
-import { TrashButton } from "./trash-button.js";
+import { DeleteButton } from "./delete-button.js";
 import { CheckButton } from "./check-button.js";
 
 const RenderList = (data) => {
@@ -14,7 +14,7 @@ const RenderList = (data) => {
     div.innerHTML = item.text;
     ul.appendChild(li);
     li.appendChild(div);
-    li.appendChild(TrashButton());
+    li.appendChild(DeleteButton());
     li.appendChild(CheckButton());
     if (item.done === true) {
       li.classList.add('completed');
