@@ -1,4 +1,4 @@
-import { TrashButton } from "./delete-button.js";
+import { TrashButton } from "../components/delete-button.js";
 
 describe("creates a trash-button with trash favicon", () => {
   describe("creates trash button", () => {

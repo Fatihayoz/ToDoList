@@ -1,4 +1,4 @@
-import { RenderList } from "../components/render-list.js";
+import { TodoList } from "../components/todo-list.js";
 import { state } from "../data.js";
 
 /* eslint-disable prefer-destructuring */
@@ -8,7 +8,7 @@ if (target.nodeName === "BUTTON") {
     const listParent = document.querySelector(".todo-container");
     const toDelete = target.parentElement.dataset.index;
     state.items.splice(toDelete,1);
-    listParent.appendChild(RenderList(state.items));
+    listParent.appendChild(TodoList(state.items));
 };
 }
 export { deleteTodoHandler }; 

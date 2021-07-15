@@ -1,7 +1,7 @@
 import { DeleteButton } from "./delete-button.js";
 import { CheckButton } from "./check-button.js";
 
-const RenderList = (data) => {
+const TodoList = (data) => {
   const listParent = document.querySelector(".todo-container");
   listParent.textContent = ""; 
   const ul = document.createElement("ul");
@@ -25,4 +25,4 @@ const RenderList = (data) => {
   return ul;
 };
 
-export { RenderList };
+export { TodoList };

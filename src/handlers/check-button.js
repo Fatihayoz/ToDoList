@@ -1,4 +1,4 @@
-import { RenderList } from "../components/render-list.js";
+import { TodoList } from "../components/todo-list.js";
 import { state } from "../data.js";
 
 const checkButtonHandler = (event) => {
@@ -7,7 +7,7 @@ const checkButtonHandler = (event) => {
     state.items[isDone].done = !state.items[isDone].done;
     const listParent = document.querySelector(".todo-container");
     listParent.textContent = "";
-    listParent.appendChild(RenderList(state.items));
+    listParent.appendChild(TodoList(state.items));
 };
 
 export { checkButtonHandler }; 

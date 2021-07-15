@@ -1,5 +1,5 @@
 import { state } from "../data.js";
-import { RenderList } from "../components/render-list.js";
+import { TodoList } from "../components/todo-list.js";
 
 const resetButtonHandler = (e) => {
   e.preventDefault();
@@ -7,7 +7,7 @@ const resetButtonHandler = (e) => {
     state.items.pop();
   }
   const resetContainer = document.querySelector(".todo-container");
-  resetContainer.appendChild(RenderList(state.items));
+  resetContainer.appendChild(TodoList(state.items));
 };
 
 export { resetButtonHandler };

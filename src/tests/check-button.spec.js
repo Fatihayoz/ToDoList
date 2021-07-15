@@ -1,4 +1,4 @@
-import { CheckButton } from "./check-button.js"
+import { CheckButton } from "../components/check-button.js"
 describe("creates a check-button with check favicon", () => {
   describe("creates check button", () => {
     const actual = CheckButton();
