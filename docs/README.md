@@ -15,19 +15,18 @@
 - components
   - [add-button.js](#srccomponentsadd-buttonjs)
   - [check-button.js](#srccomponentscheck-buttonjs)
-  - [render-list.js](#srccomponentsrender-listjs)
-  - [resetButton.js](#srccomponentsresetButtonjs)
-  - [trash-button.js](#srccomponentstrash-buttonjs)
+  - [delete-button.js](#srccomponentsdelete-buttonjs)
+  - [reset-button.js](#srccomponentsreset-buttonjs)
+  - [todo-list.js](#srccomponentstodo-listjs)
 - handlers
-  - [addButtonHandler.js](#srchandlersaddButtonHandlerjs)
-  - [checkButtonHandler.js](#srchandlerscheckButtonHandlerjs)
-  - [deleteTodoHandler.js](#srchandlersdeleteTodoHandlerjs)
-  - [resetButtonHandler.js](#srchandlersresetButtonHandlerjs)
+  - [add-button.js](#srchandlersadd-buttonjs)
+  - [check-button.js](#srchandlerscheck-buttonjs)
+  - [delete-button.js](#srchandlersdelete-buttonjs)
+  - [reset-button.js](#srchandlersreset-buttonjs)
 - init
   - [index.js](#srcinitindexjs)
   - [ui.js](#srcinituijs)
-- listeners
-  - [listener.js](#srclistenerslistenerjs)
+- tests
 - [data.js](#srcdatajs)
 
 <!-- END TOC -->
@@ -46,15 +45,15 @@
 
 </details>
 
-<details><summary><a href="../src/components/render-list.js" id="srccomponentsrender-listjs">src/components/render-list.js</a></summary>
+<details><summary><a href="../src/components/delete-button.js" id="srccomponentsdelete-buttonjs">src/components/delete-button.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/components/resetButton.js" id="srccomponentsresetButtonjs">src/components/resetButton.js</a></summary>
+<details><summary><a href="../src/components/reset-button.js" id="srccomponentsreset-buttonjs">src/components/reset-button.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/components/trash-button.js" id="srccomponentstrash-buttonjs">src/components/trash-button.js</a></summary>
+<details><summary><a href="../src/components/todo-list.js" id="srccomponentstodo-listjs">src/components/todo-list.js</a></summary>
 
 </details>
 
@@ -66,19 +65,19 @@
 
 # /handlers
 
-<details><summary><a href="../src/handlers/addButtonHandler.js" id="srchandlersaddButtonHandlerjs">src/handlers/addButtonHandler.js</a></summary>
+<details><summary><a href="../src/handlers/add-button.js" id="srchandlersadd-buttonjs">src/handlers/add-button.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/handlers/checkButtonHandler.js" id="srchandlerscheckButtonHandlerjs">src/handlers/checkButtonHandler.js</a></summary>
+<details><summary><a href="../src/handlers/check-button.js" id="srchandlerscheck-buttonjs">src/handlers/check-button.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/handlers/deleteTodoHandler.js" id="srchandlersdeleteTodoHandlerjs">src/handlers/deleteTodoHandler.js</a></summary>
+<details><summary><a href="../src/handlers/delete-button.js" id="srchandlersdelete-buttonjs">src/handlers/delete-button.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/handlers/resetButtonHandler.js" id="srchandlersresetButtonHandlerjs">src/handlers/resetButtonHandler.js</a></summary>
+<details><summary><a href="../src/handlers/reset-button.js" id="srchandlersreset-buttonjs">src/handlers/reset-button.js</a></summary>
 
 </details>
 
@@ -104,11 +103,7 @@
 
 ---
 
-# /listeners
-
-<details><summary><a href="../src/listeners/listener.js" id="srclistenerslistenerjs">src/listeners/listener.js</a></summary>
-
-</details>
+# /tests
 
 ---
 
