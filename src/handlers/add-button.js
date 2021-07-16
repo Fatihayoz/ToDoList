@@ -11,6 +11,6 @@ const addButtonHandler = (e) => {
   todoInput.value = "";
   listParent.innerHTML = todoInput.value;
   listParent.appendChild(TodoList(state.items));
-};
+  };
 
 export { addButtonHandler };

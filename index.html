@@ -20,23 +20,19 @@
     <title>To Do List</title>
   </head>
   <body>
-    <header>
-        <h1>Todo List</h1>
-    </header>
+    <div class="container">
     <form>
+      <div class="title">
+        <h1>My ToDo List :</h1>
+      </div>
         <div class='add-item'>
         <input type="text" class="todo-input">
         </div>
-        <div class="select">
-          <select name="todos" class="filter-todo">
-            <option value="all">All</option>
-            <option value="completed">Completed</option>
-            <option value="uncompleted">Uncompleted</option>
-          </select>
-        </div>
     </form>
+  
     <div class="todo-container">
     </div>
+  </div>
     <script type="module" src="./src/init/index.js"></script>
   </body>
 </html>
