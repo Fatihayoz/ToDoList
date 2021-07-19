@@ -6,8 +6,8 @@ const resetButtonHandler = (e) => {
   while (state.items.length !== 0) {
     state.items.pop();
   }
-  const resetContainer = document.querySelector(".todo-container");
-  resetContainer.appendChild(TodoList(state.items));
+  const toReset = document.querySelector(".todo-container");
+  toReset.appendChild(TodoList(state.items));
 };
 
 export { resetButtonHandler };

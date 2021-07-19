@@ -1,13 +1,15 @@
 import { resetButtonHandler } from "../handlers/reset-button.js";
 
-const ResetButton = (classEl) => {
+const ResetButton = () => {
+  const resetContainer = document.createElement("div");
+  resetContainer.className = "reset-btn";
   const resetButton = document.createElement("button");
+  resetContainer.appendChild(resetButton);
   resetButton.value = "reset";
-  resetButton.innerHTML = "Reset";
-  resetButton.className = "reset-btn";
-  resetButton.classList.add(classEl);
+  resetButton.innerHTML = "Clear all";
+  resetButton.id = "reset-btn";
   resetButton.addEventListener("click", resetButtonHandler);
-  return resetButton;
+  return resetContainer;
 };
 
 export { ResetButton };
